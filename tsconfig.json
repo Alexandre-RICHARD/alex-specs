@@ -30,6 +30,7 @@
 	"include": [
 		"specs.ts",
 		"project",
+		"src",
 		"**/*.d.ts",
 	],
 	"exclude": [
