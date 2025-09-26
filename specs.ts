@@ -1,8 +1,7 @@
 import { makeApi } from "@zodios/core";
 
-import { otherTestSpecs } from "./specs/otherTest.specs.ts";
-import { testSpecs } from "./specs/test.specs.ts";
+import { testSpecs } from "./project/testing/specs/test.specs.ts";
 
-const apiSpecs = makeApi([...otherTestSpecs, ...testSpecs] as const);
+const apiSpecs = makeApi([...testSpecs] as const);
 
 export default apiSpecs;
